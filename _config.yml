@@ -1,8 +1,21 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: Uptime Docs
+description: Confluence for Uptime Support and Delivery
 theme: just-the-docs
 
 url: https://just-the-docs.github.io
 
+# External navigation links
+
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  "DXCi Uptime":
+    - "//uptime.dxc.com/"
+  "DXCi Showcase":
+    - "https:////uptime.digitaldemostudio.com/"
+
+# Makes Aux links open in a new tab. Default is false
+aux_links_new_tab: true
+
+mermaid:
+  # Version of mermaid library
+  # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
+  version: "9.1.3"
